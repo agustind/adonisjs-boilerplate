@@ -1,0 +1,6 @@
+<h1>{{ title }}</h1>
+
+{% for page in pages %}
+	<h2>{{ page.title }}</h2>
+	<h4>{{ page.user.email }}</h4>
+{% endfor %}
